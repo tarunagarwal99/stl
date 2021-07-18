@@ -58,5 +58,13 @@ pq.push(1);
 
   cout<<pq.top()<<endl;
 
+
+  priority_queue<pair<int,int>> pq1;
+//   pq1.push
+//   pq1.push(1,5);
+//   pq1.push(1,6);
+//   pq1.push(1,7);   //here it will store firstly (1,7) then (1,6) then (1,5) 
+
+
         return 0;
 }
