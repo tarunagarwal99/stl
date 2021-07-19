@@ -31,6 +31,7 @@ int main() {
     //reset
     bt.reset(); //it will  fill entire position with 0(reset)
     //size
+    cout<<bt.size()<<endl;   //it will print the size of bitset
 
     return 0;
 }

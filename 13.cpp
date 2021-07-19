@@ -19,7 +19,8 @@ int main() {
         if(mp[x] > mp[max]){ 
             max = x;
         }
-        cout<<max;
+        
     }
+    cout<<max;
     return 0;
 }
